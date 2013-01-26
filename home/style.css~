@@ -1,0 +1,37 @@
+
+body {
+	background: #323332;
+}
+.navbar-fixed-top {
+	height: 60px;
+}
+.navbar-fixed-top .navbar-inner {
+	height: inherit;
+	background-color: #F25C05;
+	background-image: -moz-linear-gradient(top, #FF7200, #FF8F15);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF7200), to(#FF8F15));
+	background-image: -webkit-linear-gradient(top, #FF7200, #FF8F15);
+	background-image: -o-linear-gradient(top, #FF7200, #FF8F15);
+	background-image: linear-gradient(to bottom, #FF7200, #FF8F15);
+}
+
+.navbar .nav.pull-right {
+	margin-top: 10px;
+}
+
+.navbar .nav.pull-right > li > a{
+	color: white;
+	text-shadow: None;
+}
+
+#page-content {
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	display: block;
+	position: relative;
+	height: 700px;
+	width: 80%;
+  	margin-left: auto ;
+  	margin-right: auto ;
+	background: #FBFEFF;
+}
